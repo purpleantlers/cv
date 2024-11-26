@@ -1,0 +1,84 @@
+:root {
+  /* COLORES */
+
+  --purple100: #fce5ff;
+  --purple200: #f2adfd;
+  --purple300: #e463f8;
+  --purple400: #cf2de8;
+  --mainPurple: #b303ce;
+  --purple600: #87049c;
+  --purple700: #6c037c;
+  --purple800: #4d0259;
+  --purple900: #370040;
+  --green100: #e5ffea;
+  --green200: #acfcb9;
+  --green300: #63f77c;
+  --green400: #2ce84b;
+  --mainGreen: #02cf24;
+  --green600: #059c1e;
+  --green700: #047d18;
+  --green800: #025910;
+  --green900: #00400b;
+  --orange100: #fff4e5;
+  --orange200: #fcdbac;
+  --orange300: #f7ba63;
+  --orange400: #e89b2e;
+  --mainOrange: #cf7902;
+  --orange600: #9c5c03;
+  --orange700: #7d4a04;
+  --orange800: #593502;
+  --orange900: #402500;
+  --red100: #ffe5ee;
+  --red200: #fcacc7;
+  --red300: #f76394;
+  --red400: #e82e6c;
+  --mainRed: #cf0246;
+  --red600: #9c0336;
+  --red700: #7d042c;
+  --red800: #59021f;
+  --red900: #400015;
+  --blue100: #e5f2ff;
+  --blue200: #acd4fc;
+  --blue300: #63adf7;
+  --blue400: #2e8be8;
+  --mainBlue: #0268cf;
+  --blue600: #034f9c;
+  --blue700: #04407d;
+  --blue800: #022e59;
+  --blue900: #002040;
+
+  /* FONTS */
+  --ff: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  --fs-100: 1rem;
+  --fs-125: 1.25rem;
+  --fs-150: 1.5rem;
+  --fs-200: 2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: var(--ff);
+  background-color: var(--blue100);
+}
+
+.carousel {
+  background-color: var(--blue200);
+}
+
+.carousel ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.carousel li:before {
+    content: ">";
+    padding-right: 5px;
+    color: var(--purple100);
+}
