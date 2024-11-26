@@ -75,18 +75,39 @@ body, html {
   background-color: var(--blue200);
 }
 
+.education .carousel {
+  height: 300px;
+}
+
+.education .carousel-inner {
+  height: 100%;
+}
+
+.progress {
+  background-color: var(--purple100);
+}
+
+.progress-bar {
+  background-color: var(--mainPurple);
+}
+
+.skills img {
+  width: 10%;
+}
+
+.footer img {
+  width: 25px;
+}
+
 ul {
   list-style: none;
   margin-left: 0;
   padding-left: 0;
+  align-self: start;
 }
 
 li:before {
     content: ">";
     padding-right: 5px;
     color: var(--purple100);
-}
-
-.education article {
-  background-color: var(--blue200);
 }
