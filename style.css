@@ -67,18 +67,26 @@ body, html {
   background-color: var(--blue100);
 }
 
+.header img {
+  width: 35%;
+}
+
 .carousel {
   background-color: var(--blue200);
 }
 
-.carousel ul {
+ul {
   list-style: none;
   margin-left: 0;
   padding-left: 0;
 }
 
-.carousel li:before {
+li:before {
     content: ">";
     padding-right: 5px;
     color: var(--purple100);
+}
+
+.education article {
+  background-color: var(--blue200);
 }

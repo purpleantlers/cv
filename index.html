@@ -25,18 +25,18 @@
   </head>
   <body>
     <div class="container my-5">
-      <header class="header d-flex flex-column-reverse flex-md-row gap-4 justify-content-center align-items-center mb-5">
+      <header class="header col-md-9 mx-auto d-flex flex-column-reverse flex-md-row justify-content-between align-items-center gap-4 mb-5">
         <div>
           <h1>Eduard Guerrero</h1>
           <h4 class="fw-normal">Desarrollador Web</h4>
           <h6 class="fw-lighter fst-italic">Desarrollador Frontend / Diseñador / Desarrollador de Videojuegos</h6>
         </div>
-        <img class="w-25" src="assets/profile.png" alt="Imagen de Perfil">
+        <img src="assets/profile.png" alt="Imagen de Perfil">
       </header>
 
       <section class="about mb-5">
         <h2 class="text-center mb-5">Sobre Mi</h2>
-        <p class="w-75 mx-auto text-wrap">
+        <p class="col-md-9 mx-auto text-wrap">
           Después de dedicar mi vida a la industria del turismo y crear experiencias de viaje inolvidables para las personas, en 2020, la curiosidad me llevó a explorar un nuevo camino. 
           <br>
           <br>
@@ -47,10 +47,10 @@
         </p>
       </section>
   
-      <section class="experience mb-5">
+      <section class="experience mb-5 col-md-9 mx-auto">
         <h3 class="text-center mb-5">Experiencia Laboral</h3>
         
-        <div id="carouselExperience" class="carousel slide p-4 rounded-5">
+        <div id="carouselExperience" class="carousel slide p-4 rounded-5" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExperience" data-bs-slide-to="0" class="active" aria-current="true" ></button>
             <button type="button" data-bs-target="#carouselExperience" data-bs-slide-to="1" ></button>
@@ -61,7 +61,7 @@
               <div class="d-flex flex-lg-row align-items-center justify-content-evenly flex-column gap-2">
                 <div class="mb-lg-4">
                   <h5 class="text-center">Jefe de Recepción</h5>
-                  <div class="d-flex flex-row flex-md-column gap-md-0 justify-content-center gap-2">
+                  <div class="d-flex flex-column justify-content-center">
                     <h6 class="text-center">Fosshótel Stykkishólmur</h6>
                     <h6 class="text-center">05/2021 - 12/2022</h6>
                   </div>
@@ -80,7 +80,7 @@
               <div class="d-flex flex-lg-row align-items-center justify-content-evenly flex-column gap-2">
                 <div class="mb-lg-4">
                   <h5 class="text-center">Camarero</h5>
-                  <div class="d-flex flex-row flex-md-column gap-md-0 justify-content-center gap-2">
+                  <div class="d-flex flex-column justify-content-center">
                     <h6 class="text-center">Greyfriars Hotel and Restaurant</h6>
                     <h6 class="text-center">09/2019 - 03/2020</h6>
                   </div>
@@ -99,7 +99,7 @@
               <div class="d-flex flex-lg-row align-items-center justify-content-evenly flex-column gap-2">
                 <div class="mb-lg-4">
                   <h5 class="text-center">Recepcionista</h5>
-                  <div class="d-flex flex-row flex-md-column gap-md-0 justify-content-center gap-2">
+                  <div class="d-flex flex-column justify-content-center">
                     <h6 class="text-center">Fosshótel Mývatn</h6>
                     <h6 class="text-center">09/2018 - 09/2019</h6>
                   </div>
@@ -118,37 +118,45 @@
         </div>
       </section>
 
-      <section class="education">
-        <h3>Educación</h3>
-        <article>
-          <h6>F. P Grado Superior en Desarrollo de Aplicaciones Web</h6>
-          <p>2023 - presente</p>
-          <ul>
-            <li>Gestión de bases de datos</li>
-            <li>Desarrollo de aplicaciones web</li>
-            <li>Gestión de servidores</li>
-          </ul>
-        </article>
-        <article>
-          <h6>F. P Grado Superior en Guía, Información y Asistencia Turísticas</h6>
-          <p>2015 - 2018</p>
-          <ul>
-            <li>Guía y asistencia turística</li>
-            <li>Protocolo y relaciones públicas</li>
-            <li>Contabilidad</li>
-          </ul>
-        </article>
-        <article>
-          <h6>Turismo</h6>
-          <p>2011 - 2014</p>
-          <ul>
-            <li>Estadística</li>
-            <li>Negocios y emprendimiento</li>
-            <li>Idiomas</li>
-          </ul>
-        </article>
+      <section class="education mb-5 col-md-9 mx-auto">
+        <h3 class="text-center mb-5">Educación</h3>
+        <div class="d-flex flex-lg-row flex-column gap-2">
+          <article class="rounded-5 p-4 d-flex flex-column justify-content-center w-100">
+            <div class="text-center">
+              <h6>F. P Grado Superior en Desarrollo de Aplicaciones Web</h6>
+              <p>2023 - presente</p>
+            </div>
+            <ul>
+              <li>Gestión de bases de datos</li>
+              <li>Desarrollo de aplicaciones web</li>
+              <li>Gestión de servidores</li>
+            </ul>
+          </article>
+          <article class="rounded-5 p-4 d-flex flex-column justify-content-center w-100">
+            <div class="text-center">
+              <h6>F. P Grado Superior en Guía, Información y Asistencia Turísticas</h6>
+              <p>2015 - 2018</p>
+            </div>
+            <ul>
+              <li>Guía y asistencia turística</li>
+              <li>Protocolo y relaciones públicas</li>
+              <li>Contabilidad</li>
+            </ul>
+          </article>
+          <article class="rounded-5 p-4 d-flex flex-column justify-content-center w-100">
+            <div class="text-center">
+              <h6>Grado Universitario en <br>Turismo</h6>
+              <p>2011 - 2014</p>
+            </div>
+            <ul>
+              <li>Estadística</li>
+              <li>Negocios y emprendimiento</li>
+              <li>Idiomas</li>
+            </ul>
+          </article>
+        </div>
       </section>
-  
+      
       <section class="skills">
         <h3>Habilidades</h3>
         <article>
