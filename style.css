@@ -65,6 +65,7 @@
 body, html {
   font-family: var(--ff);
   background-color: var(--blue100);
+  color: var(--purple900);
 }
 
 .header img {
@@ -95,6 +96,22 @@ body, html {
   width: 10%;
 }
 
+.card {
+  color: var(--purple900);
+}
+
+.btn-primary {
+  background-color: var(--blue200);
+  border-color: var(--blue400);
+  color: var(--purple900);
+  transition: .5s;
+}
+
+.btn-primary:hover {
+  background-color: var(--blue600);
+  color: white;
+}
+
 .footer img {
   width: 25px;
 }
@@ -109,5 +126,5 @@ ul {
 li:before {
     content: ">";
     padding-right: 5px;
-    color: var(--purple100);
+    color: var(--blue600);
 }
