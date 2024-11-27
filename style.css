@@ -89,6 +89,10 @@ li:before {
   background-color: var(--mainPurple) !important;
 }
 
+.header, .about, .experience, .education, .skills, .projects {
+  margin-bottom: 100px !important;
+}
+
 .education .carousel {
   height: 300px;
 }
@@ -100,13 +104,14 @@ li:before {
 .progress {
   background-color: var(--blue100);
   border: 1px solid var(--mainPurple);
-  border-radius: 10px;
+  border-radius: 20px;
+  height: 20px;
 }
 
 .progress-bar {
   background-color: var(--blue200);
   color: var(--purple900);
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .skills img {
@@ -115,7 +120,7 @@ li:before {
 }
 
 .skills img:hover {
-  scale: 1.5;
+  scale: 1.3;
 }
 
 .card {
@@ -142,5 +147,5 @@ li:before {
 }
 
 .footer img:hover {
-  scale: 1.5;
+  scale: 1.3;
 }
